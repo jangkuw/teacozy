@@ -1,0 +1,191 @@
+/* UNIVERSAL Style */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", serif;
+  font-size: 22px;
+  color: "Seashell";
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+h2, h3, h4, h5 {
+  background-color: black;
+  color: Seashell;
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 5px 0;
+}
+
+/* HEADER Section */
+.header {
+  display: flex;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+  border-bottom: 1px solid Seashell;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  margin-left: 10px;
+  /*border: 1px solid yellow;*/
+}
+
+.logo img {
+  height: 50px;
+}
+
+.header nav {
+  display: inline-block;
+  margin-right: 10px;
+  text-align: right;
+  /*border: 1px solid brown;*/
+}
+
+.header a {
+  color: Seashell;
+  padding: 15px;
+}
+
+/* CONTENT Section */
+.main-container {
+  /*border: 1px solid yellow;*/
+  top: 69px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Mission Section */
+.mission {
+  /*border: 1px solid lightblue;*/
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("../images/img-mission-background.jpg");
+}
+
+/* Tea Section */
+.tea-container {
+  /*border: 1px solid red;*/
+  position: relative;
+}
+
+#tea-of-the-month {
+  margin-top: 30px;
+}
+
+.teas {
+  /*border: 1px solid red;*/
+  display: flex;
+  width: 1050px;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.tea {
+  /*border: 1px solid orange;*/
+  display: flex;
+  flex-direction: column;
+  padding: 0 25px;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+}
+
+/* Location Section */
+.location-container {
+  /*border: 1px solid green;*/
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  height: 580px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+#location {
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+#location h2 {
+  background-color: transparent;
+}
+
+.location {
+  /*border: 1px solid red;*/
+  display: flex;
+  width: 980px;
+  height: 300px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.address {
+  opacity: 1;
+  width: 300px;
+  height: 300px;
+}
+
+.address h3 {
+  padding: 26px 0;
+}
+
+.address h4 {
+  font-size: 18px;
+  padding: 26px 0;
+}
+
+/* FOOTER Section*/
+.footer {
+  /*border: 1px solid yellow;*/
+  position: relative;
+  top: 68px;
+  height: 200px;
+  width: 100%;
+}
+
+#contact {
+  /*border: 2px solid white;*/
+  display: block;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+
+#contact h2 {
+  padding: 15px 0;
+}
+
+#copyright {
+  /*border: 3px solid red;*/
+  display: block;
+  padding-left: 20px;
+  text-align: left;
+}
+
+#contact h5, #copyright h5 {
+  font-size: 12px;
+  padding: 14px 0;
+}
