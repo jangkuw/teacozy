@@ -66,7 +66,7 @@ h2, h3, h4, h5 {
 }
 
 /* Mission Section */
-.mission {
+#mission {
   /*border: 1px solid lightblue;*/
   display: flex;
   width: 1200px;
@@ -78,7 +78,7 @@ h2, h3, h4, h5 {
 }
 
 /* Tea Section */
-.tea-container {
+#tea-container {
   /*border: 1px solid red;*/
   position: relative;
 }
@@ -111,7 +111,7 @@ h2, h3, h4, h5 {
 }
 
 /* Location Section */
-.location-container {
+#location-container {
   /*border: 1px solid green;*/
   display: flex;
   align-items: center;
